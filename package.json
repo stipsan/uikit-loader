@@ -1,0 +1,35 @@
+{
+  "name": "uikit-loader",
+  "version": "1.0.0",
+  "description": "A Webpack CSS loader for UIkit, a lightweight and modular front-end framework for developing fast and powerful web interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stipsan/uikit-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "loader",
+    "uikit",
+    "less",
+    "sass",
+    "css-modules"
+  ],
+  "author": "Stian Didriksen <stipsan@gmail.com> (http://github.com/stipsan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stipsan/uikit-loader/issues"
+  },
+  "homepage": "https://github.com/stipsan/uikit-loader#readme",
+  "peerDependencies": {
+    "style-loader": "*",
+    "webpack": "*"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.14"
+  }
+}
