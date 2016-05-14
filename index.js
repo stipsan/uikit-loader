@@ -3,7 +3,7 @@ var path = require('path');
 var fs = require('fs');
 
 // @TODO update regex to include sass
-var uikitLPattern = /node_modules\/uikit\/.+less$/;
+var uikitPattern = /node_modules\/uikit\/.+less$/
 
 module.exports = function (source) {
   if (this.cacheable) this.cacheable();
