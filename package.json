@@ -27,7 +27,7 @@
   "homepage": "https://github.com/stipsan/uikit-loader#readme",
   "peerDependencies": {
     "style-loader": "*",
-    "webpack": "*"
+    "webpack": "1.13.1"
   },
   "dependencies": {
     "loader-utils": "^0.2.14"
