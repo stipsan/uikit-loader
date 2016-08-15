@@ -29,8 +29,16 @@ module.exports = function (source) {
 
   this.addDependency(themePath)
 
-  fs.readFile(themePath, 'utf-8', function (err, theme) {
-    if (err) return callback(err)
-    callback(null, theme + '\n' + source)
-  })
+  var prepend = config.prepend || false
+
+  var relativePath = path.relative(this.context, themePath)
+  var theme = `@import "${relativePath}";`
+
+  var compiled = source
+  if (prepend) {
+    compiled = theme + '\n' + compiled
+  } else {
+    compiled = compiled + '\n' + theme
+  }
+  callback(null, compiled)
 }
