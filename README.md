@@ -2,7 +2,8 @@
 
 A Webpack CSS loader for [UIkit](http://getuikit.com/), a lightweight and modular front-end framework for developing fast and powerful web interfaces
 
-[![NPM](https://nodei.co/npm/uikit-loader.png)](https://www.npmjs.com/package/uikit-loader)
+[![NPM](https://nodei.co/npm/uikit-loader.png?downloadRank=true)](https://www.npmjs.com/package/uikit-loader)
+[![NPM](https://nodei.co/npm-dl/uikit-loader.png?months=3&height=2)](https://nodei.co/npm/uikit-loader/)
 
 # When should I use this?
 
