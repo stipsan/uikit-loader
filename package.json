@@ -1,6 +1,6 @@
 {
   "name": "uikit-loader",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "A Webpack CSS loader for UIkit, a lightweight and modular front-end framework for developing fast and powerful web interfaces",
   "main": "index.js",
   "scripts": {
