@@ -12,7 +12,7 @@ That includes usage with CSS modules.
 
 # Usage
 
-1. Create a sass/less file for your UIkit variables.
+1. Create a sass/less (less is recommended as it's easier to theme out of the box with UIkit) file for your UIkit variables.
 2. Add the uikitLoader after the sass/less loader.
 3. Configure the loader with the location of your variables file.
 
