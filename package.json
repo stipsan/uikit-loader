@@ -30,7 +30,7 @@
     "webpack": "1.*"
   },
   "dependencies": {
-    "loader-utils": "0.2.15"
+    "loader-utils": "0.2.16"
   },
   "devDependencies": {
     "babel-eslint": "6.1.2",
