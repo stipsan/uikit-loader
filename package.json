@@ -33,7 +33,7 @@
     "loader-utils": "0.2.16"
   },
   "devDependencies": {
-    "babel-eslint": "6.1.2",
+    "babel-eslint": "7.0.0",
     "eslint": "3.6.1",
     "eslint-config-stipsan": "1.1.1",
     "eslint-plugin-import": "1.16.0",
