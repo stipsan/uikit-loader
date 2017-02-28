@@ -1,5 +1,7 @@
 # UIkit Loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stipsan/uikit-loader.svg)](https://greenkeeper.io/)
+
 A Webpack CSS loader for [UIkit](http://getuikit.com/), a lightweight and modular front-end framework for developing fast and powerful web interfaces
 
 [![NPM](https://nodei.co/npm/uikit-loader.png?downloadRank=true)](https://www.npmjs.com/package/uikit-loader)
